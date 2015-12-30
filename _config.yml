@@ -1,2 +1,3 @@
-name: YUvraj Singh, Data Science Enthusiast
+name: Yuvraj Singh, Data Science Enthusiast
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
