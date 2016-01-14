@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:yuvraj.singh@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/yuvrajsingh86">https://github.com/yuvrajsingh86</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Palak Mathur's Website on Technology, Social Issues, Current Affairs, UPSC Civil Services Examination, etc.">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Palak Mathur | {{ page.title }}</title>
+
+    <!-- CSS GRID -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" />
+    
+    <!-- Stack Exchange Open Id -->
+    <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+    <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/109108bc-9afb-4af2-8347-4243bedf2680"> 
+
+    <!-- Google Analytics -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36868278-1']);
+          _gaq.push(['_setDomainName', 'palakmathur.in']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+    <!-- End of Google Analytics -->
+</head>
+<body>
+    <div class="container">
+        <div id="menu">
+            <ul>
+                <li><a href="/"><img class="me" src="/images/icons/PalakMathur.jpeg" /></a></li>
+                <li><a href="/about/"><img src="/images/icons/about.png" /></a></li>
+                <li><a href="/articles/"><img src="/images/icons/articles.png" /></a></li>
+                <li><a href="/contact/"><img src="/images/icons/email.png" /></a></li> 
+                <li><a href="/webcmd"><img src="/images/icons/window_command_icon_white.PNG" /></a></li>
+                <li><a href="http://feeds.feedburner.com/palakmathur"><img src="/images/icons/rss.png" /></a></li>
+            </ul>
+        </div>
+
+
+        <div id="main">
+            <div class="content">
+                {{ content }}
+               
+               
+            </div>
+            
+            
+           
+            
+            
+        </div><!-- #main -->
+
+
+    </div><!-- #container -->
+</body>
+</html>
