@@ -21,18 +21,18 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Site owner
 owner:
-  name: Your Name
+  name: Yuvraj Singh
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
+  bio: Data Science Enthusiast
+  email: yuvraj.singh@gmail.com
+  disqus-shortname: yuvi
   twitter: #username
-  facebook: #username
+  facebook: yuvrajkumarsinghkumarsingh
   google:
     plus: #username
     analytics:
@@ -40,9 +40,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: yuvrajsingh86
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: yuvrajkumarsingh
   xing: #username
   instagram: #username
   lastfm: #username
