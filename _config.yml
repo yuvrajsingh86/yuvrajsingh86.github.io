@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Yuvraj Singh
 locale:           en_US
 url:
 
@@ -30,7 +30,7 @@ owner:
   avatar: bio-photo.jpg
   bio: Data Science Enthusiast
   email: yuvraj.singh@gmail.com
-  disqus-shortname: yuvi
+  disqus-shortname: disqus_Gzq70gVW60
   twitter: #username
   facebook: yuvrajkumarsinghkumarsingh
   google:
