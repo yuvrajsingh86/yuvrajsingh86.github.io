@@ -13,4 +13,4 @@ image:
 I am working as Senior Data Analyst at ComScore. I am a Data enthusiast and love to learn more about Data Science.  
 You can download my resume [here][1]
 
-[1]:{{ site.url }}/download/yuvraj_singh_resume.pdf
+[1]:{{ site.url }}/download/Yuvraj_Singh_Resume.pdf
