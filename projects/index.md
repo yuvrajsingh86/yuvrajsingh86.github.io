@@ -11,11 +11,11 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-<div markdown="0">
+<section style="float:center" markdown="0">
 {% for page in site.pages %}
   {% if page.project == true %}
     {% if page.hidden != true %}
-      <div class="post post-preview">
+      <div>
       {% if page.link %}
         <h1><a class="post-link" href="{{ page.link }}">
       {% else %}
@@ -27,4 +27,4 @@ image:
     {% endif %}
   {% endif %}
 {% endfor %}
-</div>
+</section>

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Android Automation
+title: Data Analysis Using Panda
 modified: 2014-07-31T13:23:02.362000-04:00
 project: true
-summary: "Android Automation Testing"
+summary: "Data Analysis Using Panda"
 link: https://github.com/yuvrajsingh86/Machine-Learning
 image:
   feature: sample-image-3.jpg
