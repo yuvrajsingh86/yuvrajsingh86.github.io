@@ -15,7 +15,7 @@ image:
 {% for page in site.pages %}
   {% if page.project == true %}
     {% if page.hidden != true %}
-      <div>
+      <div class="post post-preview">
       {% if page.link %}
         <h1><a class="post-link" href="{{ page.link }}">
       {% else %}
