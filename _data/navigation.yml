@@ -7,4 +7,11 @@
   url: /posts/
 
 - title: Projects
-  url: /theme-setup/
+  url: /projects/
+
+- title: Resume
+  url: /download/Yuvraj_Singh_Resume.pdf
+
+
+- title: Recent Post
+  layout: home
