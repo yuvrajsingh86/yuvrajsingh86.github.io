@@ -5,10 +5,6 @@ excerpt: "Instructions on how to install and customize the Jekyll theme Minimal 
 skip_title: true
 nav: projects
 title: Projects
-image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 <section style="float:center" markdown="0">
